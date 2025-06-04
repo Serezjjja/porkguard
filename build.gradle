@@ -1,5 +1,13 @@
 plugins {
+    id 'net.neoforged.gradle.userdev' version '7.0.170'
     id 'java'
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+base {
+    archivesName = 'worldguard'
+}
+
+
  0ial43-codex/port-worldguard-plugin-to-forge-mod
 }
 
