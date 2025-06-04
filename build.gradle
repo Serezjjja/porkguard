@@ -1,5 +1,11 @@
 plugins {
     id 'java'
+ 0ial43-codex/port-worldguard-plugin-to-forge-mod
+}
+
+sourceCompatibility = JavaVersion.VERSION_21
+targetCompatibility = JavaVersion.VERSION_21
+
     id 'net.neoforged.gradle' version '6.0.21'
 }
 
@@ -8,6 +14,7 @@ java {
         languageVersion = JavaLanguageVersion.of(17)
     }
 }
+
 
 version = '0.1.0'
 
@@ -20,6 +27,9 @@ dependencies {
     implementation 'net.neoforged:neoforge:21.1.173'
 }
 
+ 0ial43-codex/port-worldguard-plugin-to-forge-mod
+
+
 minecraft {
     version = '1.21.1-21.1.173'
     runs {
@@ -31,3 +41,4 @@ minecraft {
         }
     }
 }
+
