@@ -1,0 +1,18 @@
+modLoader="javafml"
+loaderVersion="[2,]"
+license="LGPL-3.0-or-later"
+[[mods]]
+modId="worldguard"
+version="7.x.x"
+displayName="WorldGuard"
+credits="Original Bukkit plugin by EngineHub"
+authors="EngineHub"
+description='''
+A port of WorldGuard to NeoForge.
+'''
+[[dependencies.worldguard]]
+modId="neoforge"
+mandatory=true
+versionRange="[21.1.173,]"
+ordering="NONE"
+side="BOTH"
