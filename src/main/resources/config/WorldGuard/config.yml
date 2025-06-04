@@ -1,0 +1,4 @@
+regions:
+  example:
+    flags:
+      greeting: "Welcome"
